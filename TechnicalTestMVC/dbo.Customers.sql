@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Customers]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+	[FullName] NVARCHAR(50),
+	[DateCreated] DATETIME,
+	[Amount] BIGINT,
+	[Ref] INT
+)
